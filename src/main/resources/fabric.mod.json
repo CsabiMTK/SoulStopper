@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "iceandtorchcontrol",
+  "version": "1.0.0",
+  "name": "Ice and Torch Control",
+  "description": "Prevents ice melting and disables hostile mob spawning near torches.",
+  "authors": ["ChatGPT"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.iceandtorchcontrol.IceAndTorchControl"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "1.21.6",
+    "fabric": "*"
+  }
+}
